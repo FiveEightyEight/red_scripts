@@ -15,8 +15,8 @@ Note: All scripts require the name of the filed copied to `local/bin` preceding 
 Example: Following installation instructions, all scripts are executed running `red <argument>`.
 
 ### Arguments
-1.**`resetapp`** - Deletes node_modules, clears npm cache, removes package-lock, and reinstalls modules.
-2.**`resetapp c `__`<optional commit message>`__** - In addition to reseting app, package-lock is added with optional commit message. If no commit message is passed, a default message will be used. 
+1. **`resetapp`** - Deletes node_modules, clears npm cache, removes package-lock, and reinstalls modules.
+2. **`resetapp c `__`<optional commit message>`__** - In addition to reseting app, package-lock is added with optional commit message. If no commit message is passed, a default message will be used. 
 
 ---
 _Note_:
