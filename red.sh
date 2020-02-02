@@ -31,7 +31,7 @@ AUND='\e[4m'
 #Combo
 WARN=$ABOL$CBLA$BYEL$ABLI"WARN"$CRESET
 
-if [ $1 = 'resetapp' ]
+if [ $1 = 'resetapp' ] && [[ -z "$2" ]]
 then
         printf 'Resetting App...'
         rm -rf node_modules && npm cache clear --force && rm package-lock.json && npm i
