@@ -17,3 +17,7 @@ Example: Following installation instructions, all scripts are executed running `
 ### Arguments
 1.**`resetapp`** - Deletes node_modules, clears npm cache, removes package-lock, and reinstalls modules.
 
+
+---
+_Note_:
+Run at your own risk 🤷‍♂️ 
