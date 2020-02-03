@@ -64,6 +64,11 @@ else
 fi
 
 
+#function cd() {
+#  builtin cd "$@" && ls -lrthG;
+#}
+
+alias gitgraph="git log --graph"
 
 
 
