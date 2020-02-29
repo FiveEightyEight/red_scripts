@@ -55,7 +55,7 @@ then
         echo -ne "add and commiting new package-lock... \r"
         git status
         git add package-lock.json
-        [[ -z "$2" ]] && printf "\n"$CLRED"no commit message argument, using default message$CRESET\n" && git commit -m 'reset package-lock' || git commit -m "$3"
+        [[ -z "$3" ]] && printf "\n"$CLRED"no commit message argument, using default message$CRESET\n" && git commit -m 'reset package-lock' || git commit -m "$3"
         printf "\n 🛩   "$CGRE"Execution Complete$CRESET\n"
         exit 0       
 else
