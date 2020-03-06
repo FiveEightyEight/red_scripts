@@ -31,7 +31,7 @@ AUND='\e[4m'
 #Combo
 WARN=$ABOL$CBLA$BYEL$ABLI"WARN"$CRESET
 
-resetapp () {
+resetapp() {
         if [ $1 = 'resetapp' ] && [[ -z "$2" ]]
         then
                 printf 'Resetting App...'
@@ -65,11 +65,11 @@ resetapp () {
         fi
 }
 
-graph () {
+graph() {
         git log --graph
 }
 
-diff () {
+diff() {
         git diff --color | cat
 }
 
