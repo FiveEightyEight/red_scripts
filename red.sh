@@ -69,6 +69,10 @@ graph () {
         git log --graph
 }
 
+diff () {
+        git diff --color | cat
+}
+
 #function cd() {
 #  builtin cd "$@" && ls -lrthG;
 #}
