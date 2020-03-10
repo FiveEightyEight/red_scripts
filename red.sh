@@ -70,7 +70,7 @@ graph() {
 }
 
 diff() {
-        git diff --color | cat
+        git diff --color . | cat
 }
 
 #function cd() {
