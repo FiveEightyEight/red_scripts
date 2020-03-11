@@ -6,7 +6,7 @@ CRESET='\e[49m\e[39m\e[0m'
 
 #Text Colors
 CBLA='\e[30m'
-CBLU='\e34m'
+CBLU='\e[34m'
 CLBU='\e[94m'
 CGRE='\e[32m'
 CMAG='\e[35m'
