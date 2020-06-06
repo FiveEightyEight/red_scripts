@@ -42,7 +42,7 @@ resetapp() {
         then
                 git log | head -1 | sed -E 's/commit //g'
                 exit 0
-        elif [ $1 = 'resetapp' ] && [ $2 = 'c' ]
+        elif [ $1 = 'resetapp' ] && [ $2 = '-c' ]
         then
                 printf " 🚀 $CLBU Executing $ABLI$1$CRESET...\n"
                 echo -ne "Removing Node Modules...\r"
